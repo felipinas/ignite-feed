@@ -3,8 +3,9 @@ import { Sidebar } from "./components/Sidebar";
 import { Post } from "./components/Post";
 
 import './global.css';
-
 import styles from './App.module.css';
+
+import { posts } from "./mock/posts.mock";
 
 export function App() {
   return (
@@ -14,8 +15,15 @@ export function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          <Post />
-          <Post />
+          {posts.map(post => {
+            return (
+              <Post
+                author={post.author}
+                content={post.content}
+                publishedAt={post.publishedAt}
+              />
+            )
+          })}
         </main>
       </div>
     </div>

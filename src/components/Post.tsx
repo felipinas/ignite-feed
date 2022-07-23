@@ -14,14 +14,14 @@ interface Author {
 
 interface Content {
   id: number;
-  type: 'paragraph' | 'link';
+  type: string;
   content: string;
 }
 
 interface PostProps {
   author: Author;
-  publishedAt: Date;
   content: Content[];
+  publishedAt: Date;
 }
 
 export function Post({ author, publishedAt, content }: PostProps) {

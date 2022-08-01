@@ -1,6 +1,6 @@
 # Ignite Feed
 
-Ignite Feed was a challenge developed in the Ignite Course from [@Rocketseat](https://www.rocketseat.com.br/). In this challenge, I learned and revised the basics topics in React, like Components, State, Immutability and Hooks, while TypeScript has been new to me.
+Ignite Feed was a challenge developed during the Ignite Course, a [@Rocketseat](https://www.rocketseat.com.br/) course focused on practicing the foundations of React (such as Components, States, Immutability and Hooks). TypeScript was a new tool for me and now it'll definitely come in handy for my next projects.
 
 
 ## Screenshot
